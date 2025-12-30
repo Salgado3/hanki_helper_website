@@ -1,0 +1,76 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --main-background-color: transparent;
+  --main-button-color: #975ab6;
+  --main-label-font-size: 1rem;
+  --main-border-radius: 15px;
+}
+
+/* 2. Remove default margin */
+body {
+  margin: 0;
+  font-family: "ui-sans-serif, system-ui, sans-serif";
+  background-color: aliceblue;
+}
+
+.headerContainer {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.headerImg {
+  height: 48px;
+}
+
+.navbarUnorderedList {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+}
+
+.navbarListItem,
+.footerListItem {
+  list-style: none;
+  padding: 5px;
+}
+
+.navbarButton {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1rem;
+  height: auto;
+  width: fit-content;
+  padding: 10px 5px;
+  opacity: 0.75;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: ease border-bottom 0.25s;
+}
+
+.navbarButton:hover {
+  background: transparent;
+  color: #0080ff;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.mainInfo {
+  height: 60vh;
+  border: 1px solid blue;
+}
+
+.footerUnorderedList {
+  display: flex;
+  justify-content: space-evenly;
+}
