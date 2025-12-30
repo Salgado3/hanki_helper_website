@@ -13,11 +13,14 @@
 
 /* 2. Remove default margin */
 body {
-  margin: 0;
   font-family: "ui-sans-serif, system-ui, sans-serif";
   background-color: aliceblue;
 }
 
+.underConstruction {
+  font-size: 3rem;
+  color: rgb(225, 133, 133);
+}
 .headerContainer {
   border: 1px solid red;
   display: flex;
@@ -85,9 +88,28 @@ body {
   font-weight: 700;
 }
 
-.mainInfo {
-  height: 60vh;
+.mainContainer {
   border: 1px solid blue;
+}
+
+.screenshotContainer {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.quickDraftsContainer,
+.sidepanelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidepanelImage {
+  width: 90%;
+}
+
+.quickDraftImage {
+  width: 90%;
 }
 
 .footerUnorderedList {
