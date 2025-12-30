@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+/bower_components/ # If using Bower
+
+# Build artifacts
+/dist/
+/build/
+/coverage/
+
+# Logs and runtime data
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Optional caches
+.npm
+.eslintcache
+
+# OS-specific files
+.DS_Store # macOS
+._* # macOS
+.Spotlight-V100 # macOS
+.Trashes # macOS
+Thumbs.db # Windows
+
+# Editor-specific temporary files
+*~
+*.swp
+*.swo
+
+# Output of 'npm pack'
+*.tgz
