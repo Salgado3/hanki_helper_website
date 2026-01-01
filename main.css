@@ -22,14 +22,21 @@ body {
   color: rgb(225, 133, 133);
 }
 .headerContainer {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
+.headerTitleImgContainer {
+  display: flex;
+}
+
 .headerImg {
   height: 48px;
+  width: 48px;
 }
 
 .navbarUnorderedList {
@@ -78,7 +85,7 @@ body {
   background-color: #0080ff;
   font-weight: 700;
   cursor: pointer;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 8px;
 }
 
@@ -89,7 +96,7 @@ body {
 }
 
 .mainContainer {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .screenshotContainer {
