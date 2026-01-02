@@ -11,10 +11,10 @@
     <nav class="navbarContainer">
       <ul class="navbarUnorderedList">
         <li class="navbarListItem">
-          <a class="navbarButton" href="./pages/faq.html">FAQ's</a>
+          <a class="navbarButton" href="#FAQ" id="FAQ_navbar">FAQ's</a>
         </li>
         <li class="navbarListItem">
-          <a class="navbarButton" href="./pages/howTo.html">How to use</a>
+          <a class="navbarButton" href="#HowTo">How to use</a>
         </li>
         <li class="navbarListItem">
           <a href="#" class="navbarButton">Install on Chrome</a>
@@ -23,7 +23,10 @@
     </nav>
 
     <header class="headerContainer">
-      <strong class="underConstruction">WEBSITE UNDER CONSTRUCTION :)</strong>
+      <strong class="underConstruction"
+        >WEBSITE UNDER CONSTRUCTION :) (chrome ext pending review
+        1.2.2026)</strong
+      >
 
       <div class="headerTitleImgContainer">
         <h1 class="headerTitle">Hanki Anki Helper - Draft Notes for Anki</h1>
@@ -41,7 +44,7 @@
       </p>
       <div>
         <div class="screenshotContainer">
-          <section class="quickDraftsContainer">
+          <!-- <section class="quickDraftsContainer">
             <h3>Quick Drafts</h3>
             <div class="imgContainer">
               <img
@@ -60,8 +63,89 @@
                 alt=""
               />
             </div>
-          </section>
+          </section> -->
         </div>
+      </div>
+      <div class="FAQ_Container">
+        <h2 id="FAQ">Frequently Asked Questions</h2>
+        <ul>
+          <li>
+            <div class="faqitemContainer">
+              <h3>Do I need to create an account?</h3>
+              <p>
+                No, as soon as you install Hanki Anki Helper, you will be able
+                to start saving notes. Syncing notes to anki requires the Anki
+                app to be installed
+              </p>
+              <a href="https://apps.ankiweb.net/">Learn more</a>
+            </div>
+          </li>
+          <li>
+            <div class="faqitemContainer">
+              <h3>What data is collected?</h3>
+              <p>
+                No, as soon as you install Hanki Anki Helper, you will be able
+                to start saving notes.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="faqitemContainer">
+              <h3>What is AnkiConnect?</h3>
+              <p>
+                AnkiConnect enables external applications (like Hanki) to
+                communicate with Anki over a simple HTTP API.
+              </p>
+              <a href="https://ankiweb.net/shared/info/2055492159"
+                >Learn more</a
+              >
+            </div>
+          </li>
+          <li>
+            <div class="faqitemContainer">
+              <h3>Where are my notes stored?</h3>
+              <p>
+                Notes are stored locally on your machine using Chrome's local
+                storage
+              </p>
+              <a
+                href="https://developer.chrome.com/docs/devtools/storage/localstorage"
+                >Learn more</a
+              >
+            </div>
+          </li>
+          <li>
+            <div class="faqitemContainer">
+              <h3>I deleted a note on Hanki, can I get it back?</h3>
+              <p>No. Currently notes that are deleted are gone forever.</p>
+              <a
+                href="https://developer.chrome.com/docs/devtools/storage/localstorage"
+                >Learn more</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="HowTo_Container">
+        <h2 id="HowTo">How to Use</h2>
+      </div>
+      <div class="HowTo_Container">
+        <h2 id="HowTo">Change Log</h2>
+        <ul>
+          <li>
+            <h4>1.2.2025</h4>
+            <span>✨</span>
+            <p>Hanki Anki Helper - Draft Notes for Anki: Pending Review</p>
+          </li>
+          <li>
+            <h4>12.31.2025</h4>
+            <span>✨</span>
+            <p>
+              Hanki Anki Helper - Draft Notes for Anki submitted to Chrome Web
+              Store for review
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -76,5 +160,6 @@
         </li>
       </ul>
     </footer>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
